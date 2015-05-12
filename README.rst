@@ -2,8 +2,8 @@
     :target: https://crate.io/packages/mock_matchers/
 .. |license| image:: https://pypip.in/license/mock_matchers/badge.png
     :target: https://pypi.python.org/pypi/mock_matchers/
-.. _PyHamcrest: https://pythonhosted.org/PyHamcrest/ 
-.. _PyHamcrest Matchers: https://pythonhosted.org/PyHamcrest/library.html
+.. _PyHamcrest: https://pyhamcrest.readthedocs.org/en/latest/
+.. _PyHamcrest Matchers: https://pyhamcrest.readthedocs.org/en/latest/library/
 .. _mock: https://docs.python.org/3/library/unittest.mock.html
 
 *************
@@ -35,7 +35,7 @@ Examples::
 			3
         ]
     )
-    m.foo.assert_called_with(mock_matchers.isntance_of(list))
+    m.foo.assert_called_with(mock_matchers.instance(list))
 
 
 
